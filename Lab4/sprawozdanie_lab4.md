@@ -2,7 +2,7 @@
 
 **Przedmiot:** Uczenie głębokie w systemach rozpoznawania i przetwarzania mowy  
 **Zajęcia nr / temat:** 4 — Obsługa długich sekwencji z użyciem SimpleRNN, LSTM, GRU i Conv1D  
-**Autor / grupa:** Oskar Pietrzak / [uzupełnij grupę]  
+**Autor / grupa:** Oskar Pietrzak / Gl.03  
 **Data:** 11.11.2026
 
 ## 1. Cel ćwiczenia
@@ -16,7 +16,7 @@ Porównano SimpleRNN, LSTM, GRU i Conv1D w zadaniu sumowania dwóch wartości ws
 - **Trening.** PyTorch 2.15.0+cpu, CPU AMD EPYC 9V74, dwa wątki. Ziarno 42 dla generatora NumPy, inicjalizacji modeli i tasowania partii. Dla każdego modelu użyto 30 epok, partii po 128, optymalizatora Adam z krokiem uczenia 0,003 i funkcji straty MSE. Czas obejmuje pętlę uczenia. Ustawienia ustalono przed oceną, a zbioru testowego użyto do pomiaru końcowego i analizy błędu.
 - **Predykcja stała.** Dla każdej długości obliczono średnią wartości celu na zbiorze treningowym i użyto jej jako predykcji dla wszystkich sekwencji testowych.
 
-Kod i wyniki wykonanych komórek są w [notatniku](lab4_dlugie_sekwencje.ipynb).
+Kod i wyniki wykonanych komórek są w [notatniku](Lab4.ipynb).
 
 **Ręczna kontrola generatora.** W pierwszej sekwencji treningowej dla `L = 50` znacznik w kroku 26 wskazuje krok 18 (wartość 0,128114), a znacznik w kroku 48 wskazuje krok 40 (wartość 0,631664). Suma po zaokrągleniu wynosi 0,759778 i zgadza się z celem generatora. Kroki numerowano od 1.
 
@@ -55,18 +55,3 @@ Dla `L = 100` wariant `[1, 1, 1]` osiągnął MSE niższy o 0,000066 i trenował
 
 Spośród czterech konfiguracji podstawowych Conv1D uzyskał najniższy MSE i najkrótszy czas treningu dla obu długości. Poprawa względem predykcji stałej była niewielka i zmalała przy dłuższej sekwencji. Szerszy SimpleRNN zwiększył koszt treningu przy minimalnej zmianie MSE. Porównanie dylatacji pokazało różnicę w dostępnym kontekście czasowym, a wyniki z jednego ziarna nie rozstrzygają o przewadze którejkolwiek konfiguracji splotu.
 
----
-
-## Kryteria oceny (rubryka)
-
-| Element | Waga |
-|---|---:|
-| Poprawność implementacji | 40% |
-| Wyniki i ich interpretacja | 30% |
-| Czytelność kodu (PEP8, komentarze) | 20% |
-| Wnioski | 10% |
-
-Próg zaliczenia sprawozdań (O1) wynosi 90%. Termin oddania to tydzień po zajęciach.
-
-**Prowadzący:** dr Tomasz Cieplak i mgr inż. Patryk Marek  
-**Rok akademicki:** 2026/27
