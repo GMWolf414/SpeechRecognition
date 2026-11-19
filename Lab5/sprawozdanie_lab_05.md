@@ -2,8 +2,8 @@
 
 **Przedmiot:** Uczenie głębokie w systemach rozpoznawania i przetwarzania mowy  
 **Zajęcia nr / temat:** 5 — Wpływ korpusu na tokenizację BPE i embeddingi Word2Vec  
-**Autor / grupa:** Oskar Pietrzak / nie podano  
-**Data:** 19.11.2026
+**Autor / grupa:** Oskar Pietrzak / Gl.03 
+**Data:** 18.11.2026
 
 ## 1. Cel ćwiczenia
 
@@ -286,10 +286,3 @@ liczby form z `[UNK]`, cosinusy i wariancja wyjaśniona PCA.
    przez obliczenia na pełnych wektorach.
 5. Dalsze badanie warto oprzeć na większej liczbie zróżnicowanych zdań, większej
    próbce fleksyjnej oraz powtórzeniach treningu dla kilku ziaren losowania.
-
----
-
-**Materiały:** `zadanie-lab-05.pdf`, `wstep_teoretyczny_lab_05.pdf`,
-`cwiczenie_lab_05.ipynb` oraz dostarczony szablon sprawozdania.  
-**Załączniki:** `laboratorium_05.ipynb` (wykonane komórki), `pca_lab_05.png`.  
-**Prowadzący:** dr Tomasz Cieplak / mgr inż. Patryk Marek, rok akademicki 2026/27.
