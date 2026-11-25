@@ -2,7 +2,7 @@
 
 **Przedmiot:** Uczenie głębokie w systemach rozpoznawania i przetwarzania mowy  
 **Zajęcia nr / temat:** 6 — Projekt generacyjny, część 1: przygotowanie danych dla Char-RNN  
-**Autor / grupa:** Oskar Pietrzak / 03  
+**Autor / grupa:** Oskar Pietrzak / Gl.03  
 **Data:** 25.11.2026
 
 ## 1. Cel ćwiczenia
@@ -150,7 +150,3 @@ Nie trenowano jeszcze sieci, więc na tym etapie nie wyznaczano accuracy, straty
 Przygotowano odtwarzalny potok danych dla Char-RNN. Wszystkie zbiory korzystają z jednego słownika treningowego, poprawnie odtwarzają tekst i dostarczają pary z celem przesuniętym o jeden znak. Przeprowadzone kontrole obejmują również ostatni znak celu, którego nie sprawdza sama równość wspólnej części okien.
 
 Do kolejnego laboratorium zachowano źródło, oczyszczony korpus, trzy fragmenty tekstowe, słownik, tablice ID, granice podziału, konfigurację i statystyki w katalogu `dane_lab_06`. Integralność źródła kontroluje SHA-256, a granice podziału pozostają stałe dla dalszych eksperymentów. Kolejny etap to trening Char-RNN i obserwacja straty na treningu oraz walidacji; test należy zachować do końcowej oceny.
-
----
-
-Prowadzący: dr Tomasz Cieplak / mgr inż. Patryk Marek, rok akademicki 2026/27.
