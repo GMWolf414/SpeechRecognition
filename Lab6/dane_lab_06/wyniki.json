@@ -1,0 +1,218 @@
+{
+  "statystyki": [
+    {
+      "Zbiór": "trening",
+      "Znaki": 618063,
+      "Udział [%]": 79.99997411267974,
+      "Różne znaki": 101,
+      "Pary": 618023,
+      "Batche": 19313,
+      "Pary w batchach": 618016
+    },
+    {
+      "Zbiór": "walidacja",
+      "Znaki": 77258,
+      "Udział [%]": 10.000012943660131,
+      "Różne znaki": 74,
+      "Pary": 77218,
+      "Batche": 2414,
+      "Pary w batchach": 77218
+    },
+    {
+      "Zbiór": "test",
+      "Znaki": 77258,
+      "Udział [%]": 10.000012943660131,
+      "Różne znaki": 81,
+      "Pary": 77218,
+      "Batche": 2414,
+      "Pary w batchach": 77218
+    }
+  ],
+  "porownanie": [
+    {
+      "SEKW": 40,
+      "trening": 618023,
+      "walidacja": 77218,
+      "test": 77218
+    },
+    {
+      "SEKW": 80,
+      "trening": 617983,
+      "walidacja": 77178,
+      "test": 77178
+    },
+    {
+      "SEKW": 120,
+      "trening": 617943,
+      "walidacja": 77138,
+      "test": 77138
+    }
+  ],
+  "kontrole": {
+    "trening": {
+      "indeks": 140623,
+      "x": " panna Izabela tak osłabła, że nogi zach",
+      "y": "panna Izabela tak osłabła, że nogi zachw",
+      "ksztalt": [
+        32,
+        40
+      ],
+      "min_id": 1,
+      "max_id": 101
+    },
+    "walidacja": {
+      "indeks": 0,
+      "x": "ienicę… kamienicę pana Łęckiego?…\n\n— Nic",
+      "y": "enicę… kamienicę pana Łęckiego?…\n\n— Nic ",
+      "ksztalt": [
+        32,
+        40
+      ],
+      "min_id": 1,
+      "max_id": 101
+    },
+    "test": {
+      "indeks": 0,
+      "x": " pannie Izabeli Starski jako mąż, Rossi ",
+      "y": "pannie Izabeli Starski jako mąż, Rossi j",
+      "ksztalt": [
+        32,
+        40
+      ],
+      "min_id": 2,
+      "max_id": 96
+    }
+  },
+  "nieznane": {
+    "trening": {},
+    "walidacja": {},
+    "test": {}
+  },
+  "top_znaki": [
+    {
+      "Znak": "spacja",
+      "Liczba": 93886,
+      "Udział [%]": 15.190360853181634
+    },
+    {
+      "Znak": "a",
+      "Liczba": 44128,
+      "Udział [%]": 7.139725238365668
+    },
+    {
+      "Znak": "i",
+      "Liczba": 42206,
+      "Udział [%]": 6.828753703101464
+    },
+    {
+      "Znak": "e",
+      "Liczba": 37051,
+      "Udział [%]": 5.994696333545286
+    },
+    {
+      "Znak": "o",
+      "Liczba": 34043,
+      "Udział [%]": 5.508014555150527
+    },
+    {
+      "Znak": "z",
+      "Liczba": 27753,
+      "Udział [%]": 4.490318948068401
+    },
+    {
+      "Znak": "n",
+      "Liczba": 24706,
+      "Udział [%]": 3.9973271333181244
+    },
+    {
+      "Znak": "s",
+      "Liczba": 20501,
+      "Udział [%]": 3.316975777550185
+    },
+    {
+      "Znak": "r",
+      "Liczba": 19290,
+      "Udział [%]": 3.121041058921178
+    },
+    {
+      "Znak": "y",
+      "Liczba": 18477,
+      "Udział [%]": 2.9895010702792435
+    },
+    {
+      "Znak": "c",
+      "Liczba": 18328,
+      "Udział [%]": 2.9653934954850882
+    },
+    {
+      "Znak": "w",
+      "Liczba": 17755,
+      "Udział [%]": 2.872684499800182
+    },
+    {
+      "Znak": "k",
+      "Liczba": 16787,
+      "Udział [%]": 2.7160661615401667
+    },
+    {
+      "Znak": "t",
+      "Liczba": 16102,
+      "Udział [%]": 2.6052360358086473
+    },
+    {
+      "Znak": "d",
+      "Liczba": 15481,
+      "Udział [%]": 2.504760841532336
+    }
+  ],
+  "top_slowa": [
+    {
+      "Słowo": "i",
+      "Liczba": 2848
+    },
+    {
+      "Słowo": "się",
+      "Liczba": 2560
+    },
+    {
+      "Słowo": "w",
+      "Liczba": 1984
+    },
+    {
+      "Słowo": "nie",
+      "Liczba": 1712
+    },
+    {
+      "Słowo": "na",
+      "Liczba": 1698
+    },
+    {
+      "Słowo": "z",
+      "Liczba": 1475
+    },
+    {
+      "Słowo": "do",
+      "Liczba": 1210
+    },
+    {
+      "Słowo": "że",
+      "Liczba": 1074
+    },
+    {
+      "Słowo": "a",
+      "Liczba": 1061
+    },
+    {
+      "Słowo": "to",
+      "Liczba": 830
+    },
+    {
+      "Słowo": "pan",
+      "Liczba": 691
+    },
+    {
+      "Słowo": "wokulski",
+      "Liczba": 670
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "zrodlo": "https://wolnelektury.pl/media/book/txt/lalka-tom-pierwszy.txt",
+  "autor": "Bolesław Prus",
+  "tytul": "Lalka, tom I",
+  "licencja_utworu": "domena publiczna",
+  "zasady": "https://wolnelektury.pl/info/zasady-wykorzystania/",
+  "data_pobrania": "2026-11-25",
+  "sha256_zrodla": "84bc1adcb42e21e8ade9632a181b97fa50112be2b5e24044cf068cba464c6d2f",
+  "sha256_korpusu": "2d722d0f981fc06cb84198c77dafeee1eb8a9a0e350145bf92997e565caa8d48",
+  "kodowanie": "UTF-8",
+  "normalizacja": "NFC",
+  "granice": {
+    "trening": [
+      0,
+      618063
+    ],
+    "walidacja": [
+      618063,
+      695321
+    ],
+    "test": [
+      695321,
+      772579
+    ]
+  },
+  "proporcje": [
+    0.8,
+    0.1,
+    0.1
+  ],
+  "sekw": 40,
+  "batch_size": 32,
+  "krok": 1,
+  "seed": 0,
+  "V": 102,
+  "shuffle": {
+    "trening": true,
+    "walidacja": false,
+    "test": false
+  },
+  "drop_last": {
+    "trening": true,
+    "walidacja": false,
+    "test": false
+  },
+  "wersje": {
+    "torch": "2.15.0+cpu",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  }
+}
